@@ -1,0 +1,133 @@
+* {
+    font-family: "Poppins", sans-serif; 
+    margin: 0px;
+    padding: 0px;
+}
+ 
+body {
+    background-image: url(bg.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 98vh;
+    min-height: 98vh;
+    margin: 0;
+ }
+ 
+h1 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    color: rgb(7, 103, 187);
+}
+ 
+.content {
+    padding: 10px;
+    width: 1130px;
+    height: 750px;
+    border-radius: 2%;
+    background-color: rgb(248, 248, 248);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 16px;
+    color: rgb(61, 61, 61);
+    margin-right: 15px;
+}
+
+.input-box {
+    width: 1100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 8px;
+    padding: 15px;
+    height: 50px;
+}
+h4 {
+    color: rgb(61, 61, 61);
+    font-size: 14px;
+    margin-bottom: 2px; 
+}
+
+#fname, #mname, #lname, #email, #cpno, #uname, #pass, #confirmpass, #bdate, #city, #brgy, #address {
+    width: 500px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(132, 132, 132);
+}
+
+#sex {
+    width: 525px;
+    height: 40px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(132, 132, 132);
+}
+ 
+#fname:focus, #mname:focus, #lname:focus, #cpno:focus, #bdate:focus, #sex:focus, #address:focus, #city:focus, #brgy:focus, #uname:focus, #email:focus, #pass:focus {
+    outline: none;
+    border: 1px solid rgb(7, 103, 187);
+}
+
+.input-button {
+    width: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 10px;
+    padding: 15px;
+    height: 80px;
+}
+
+button[type="submit"] {
+    padding: 10px;
+    width: 1080px;
+    height: 40px;
+    background: linear-gradient(to right,rgb(177, 222, 255),rgb(114, 206, 242),rgb(88, 202, 244),rgb(52, 170, 225));
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+ 
+button[type="submit"]:hover {
+    background: linear-gradient(to right, rgb(16, 174, 247),rgb(62, 162, 190), rgb(6, 111, 149));
+}
+
+button[type="button"] {
+    padding: 10px;
+    width: 1080px;
+    height: 40px;
+    background: linear-gradient(to right, #eb7575, #f55151, #f54a4a);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+
+
+}
+
+button[type="button"]:hover {
+    background: linear-gradient(to right, #ed5555, #f33232, #c62525);
+}

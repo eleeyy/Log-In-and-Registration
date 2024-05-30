@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg.png);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(61, 61, 61);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color:rgb(177, 222, 255);
+    font-weight: bold;
+    color: rgb(31, 31, 31);
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.logout {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logout a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.logout a:hover {
+    background-color: #e2e2e2;
+}
+
+.edit a {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background-color: #0056b3;
+}
